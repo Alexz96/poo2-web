@@ -3,152 +3,158 @@
 <head>
 <title>Troca-Troca</title>
 <meta charset="utf-8">
-<title>eCommerce template By Adobe Dreamweaver CC</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="eCommerceAssets/styles/eCommerceStyle.css" rel="stylesheet" type="text/css">
+
+
+
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-3.3.7-dist/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+    
+
+    
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="bootstrap-3.3.7-dist/assets/js/ie-emulation-modes-warning.js"></script>
+      <script src="js/scripts.js"></script>
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-<script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+
 </head>
 
 <body>
-<div id="mainWrapper">
-  <header> 
-    <!-- This is the header content. It contains Logo and links -->
-    <div id="logo" > <img src="eCommerceAssets/images/logo.jpg" alt="trocatroca logo" width="190"> 
-      
-     </div>
-    <div id="headerLinks" ><a href="view/login.html" title="Login/Cadastre-se">Login/Registrar</a><a href="#" title="Cart">Compras</a></div>
-  </header>
-<div id="content">
-    <section class="sidebar"> 
+
+     <header>
+	
+	
+	
+    <div class="container">
+        <div class="navbar-header">
+                  <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" width="200" class="img-responsive"></a>
+                </div>
+                
+             <div class="navbar-functions">           
+          <a href="cadastrar.html">Cadastrar-se</a> | <a href="login.html">Login</a>
+            </div>
+        
+        </div>
+
+    </header>
+	<article>
+<div class="container">
+
+    <div class="col-md-3">
+	<div class="col-md-12 caixapadrao"> <input type="text"  id="search" class="form-control centralizado" placeholder="Buscar..."></div>
+	<div class="col-md-12 caixabranca">
       <!-- This adds a sidebar with 1 searchbox,2 menusets, each with 4 links -->
-      <input type="text"  id="search" value="Buscar...">
+     
       <div id="menubar">
         <nav class="menu">
-          <h2><!-- Title for menuset 1 -->Busca por categoria. </h2>
-          <hr>
+          <h2><!-- Title for menuset 1 -->Filtro: </h2>
+       
           <ul>
             <!-- List of links under menuset 1 -->
-            <li><a href="#" title="Link">Acessórios e animais</a></li>
-            <li><a href="#" title="Link">Bebês e crianças</a></li>
-            <li><a href="#" title="Link">Música e Hobbies</a></li>
-            <li><a href="#" title="Link">Moda e beleza</a></li>
-            <li><a href="#" title="Link">Para sua casa</a></li>
-            <li><a href="#" title="Link">Esportes</a></li>
-            <li><a href="#" title="Link">Eletrônicos e celulares</a></li>
-            <li><a href="#" title="Link">Imóveis</a></li>
-            <li><a href="#" title="Link">Empregos</a></li>
-            <li><a href="#" title="Link">Veículos</a></li>
+           <p>Categoria:</p>
+				<div><input type="checkbox" value="1"> teste</div>
+				<div><input type="checkbox" value="1"> teste2</div>
+				<div><input type="checkbox" value="1"> teste3</div>
+			
+			<br>
+			<p>Preço:</p>
+				<div><input type="checkbox" value="1"> teste</div>
+				<div><input type="checkbox" value="1"> teste2</div>
+				<div><input type="checkbox" value="1"> teste3</div>
+			<br>
+			<p>Localidade:</p>
+				<div><input type="checkbox" value="1"> teste</div>
+				<div><input type="checkbox" value="1"> teste2</div>
+				<div><input type="checkbox" value="1"> teste3</div>
+				<div><input type="checkbox" value="1"> teste3</div>
+		   
+           
           </ul>
         </nav>
-        <nav class="menu">
-          <h2>Informações </h2>
-          <!-- Title for menuset 2 -->
-          <hr>
-          <ul>
-            <!--List of links under menuset 2 -->
-            <li><a href="#" title="Link">Dúvidas frequêntes</a></li>
-            <li><a href="#" title="Link">Fale Conosco</a></li>
-            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="#" title="Link">Link 4</a></li>
-          </ul>
-        </nav>
+
       </div>
-    </section>
-    <section class="mainContent">
-      <div class="productRow"><!-- Each product row contains info of 3 elements -->
-        <article class="productInfo"><!-- Each individual product description -->
-          <div>
+	  </div>
+    </div>
+    <div class="col-md-9  grid-items">
+        <div class="col-md-4"><!-- Each individual product description -->
+			<div class="col-md-12 produto-grid"> <div>
           Nome usuario <br/>
-          <img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
+          <img alt="sample" src="img/600x300.png" class="img-responsive"></div>
           <p class="price">R$ 00,00</p>
           <p class="productContent">Nome do produto </p>
-          <input type="button" name="button" value="Ver oferta" class="buyButton">
-        </article>
-        <article class="productInfo"><!-- Each individual product description -->
-          <div>
+          <input type="button" name="button" value="Ver oferta" class="buyButton"></div>
+         
+        </div>
+		
+		 <div class="col-md-4"><!-- Each individual product description -->
+			<div class="col-md-12 produto-grid"> <div>
           Nome usuario <br/>
-          <img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
+          <img alt="sample" src="img/600x300.png" class="img-responsive"></div>
           <p class="price">R$ 00,00</p>
-          <p class="productContent">Nome do produto</p>
-          <input type="button" name="button" value="Ver oferta" class="buyButton">
-        </article>
-        <article class="productInfo"> <!-- Each individual product description -->
-          <div>
+          <p class="productContent">Nome do produto </p>
+          <input type="button" name="button" value="Ver oferta" class="buyButton"></div>
+         
+        </div>
+		
+		 <div class="col-md-4"><!-- Each individual product description -->
+			<div class="col-md-12 produto-grid"> <div>
           Nome usuario <br/>
-          <img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
+          <img alt="sample" src="img/600x300.png" class="img-responsive"></div>
           <p class="price">R$ 00,00</p>
-          <p class="productContent">Nome do produto</p>
-          <input type="button" name="button" value="Ver oferta" class="buyButton">
-        </article>
-      </div>
-      <div class="productRow"> 
+          <p class="productContent">Nome do produto </p>
+          <input type="button" name="button" value="Ver oferta" class="buyButton"></div>
+         
+        </div>
+		
+		 <div class="col-md-4"><!-- Each individual product description -->
+			<div class="col-md-12 produto-grid"> <div>
+          Nome usuario <br/>
+          <img alt="sample" src="img/600x300.png" class="img-responsive"></div>
+          <p class="price">R$ 00,00</p>
+          <p class="productContent">Nome do produto </p>
+          <input type="button" name="button" value="Ver oferta" class="buyButton"></div>
+         
+        </div>
+		
+
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+
+      
+
         <!-- Each product row contains info of 3 elements -->
-        <article class="productInfo"> <!-- Each individual product description -->
-          <div>      
-          Nome usuario <br/> <img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
-          <p class="price">R$ 00,00</p>
-          <p class="productContent">Nome do produto</p>
-          <input type="button" name="button" value="Ver oferta" class="buyButton">
-        </article>
-        <article class="productInfo"> <!-- Each individual product description -->
-          <div>
-          Nome usuario <br/>
-          <img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
-          <p class="price">R$ 00,00</p>
-          <p class="productContent">Nome do produto</p>
-          <input type="button" name="button" value="Ver oferta" class="buyButton">
-        </article>
-        <article class="productInfo"><!-- Each individual product description -->
-          <div>
-          Nome usuario <br/>
-          <img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
-          <p class="price">R$ 00,00</p>
-          <p class="productContent">Nome do produto</p>
-          <input type="button" name="button" value="Ver oferta" class="buyButton">
-        </article>
+      
       </div>
-      <div class="productRow">
-        <article class="productInfo"> <!-- Each individual product description -->
-          <div>
-          Nome usuario <br/>
-          <img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
-          <p class="price">R$ 00,00</p>
-          <p class="productContent">Nome do produto</p>
-          <input type="button" name="button" value="Ver oferta" class="buyButton">
-        </article>
-        <article class="productInfo"><!-- Each individual product description -->
-          <div>
-          Nome usuario <br/>
-          <img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
-          <p class="price">R$ 00,00</p>
-          <p class="productContent">Nome do produto</p>
-          <input type="button" name="button" value="Ver oferta" class="buyButton">
-        </article>
-        <article class="productInfo"><!-- Each individual product description -->
-          <div>
-          Nome usuario <br/>
-          <img alt="sample" src="eCommerceAssets/images/200x200.png"></div>
-          <p class="price">R$ 00,00</p>
-          <p class="productContent">Nome do produto</p>
-          <input type="button" name="button" value="Ver oferta" class="buyButton">
-        </article>
+
+       
       </div>
-    </section>
-  </div>
-  <footer> 
-    <!-- This is the footer with default 3 divs -->
-    <div>
-      <p>Digite qualquer texto aqui de preferência relacionado a algo do site ou links do mesmo e de redes sociais.</p>
-    </div>
-    <div>
-      <p>Digite qualquer texto aqui de preferência relacionado a algo do site ou links do mesmo e de redes sociais.</p>
-    </div>
-    <div class="footerlinks">
-      <p><a><img alt="iconfacebook" src="eCommerceAssets/images/iconfacebook.png" width="14%"/></a>
-      <a><img alt="icontwitter" src="eCommerceAssets/images/twittericon.png" width="14%"/></a>
-      <a><img alt="icongmais" src="eCommerceAssets/images/icongmais.png" width="14%"/></a></p>
-    </div>
-  </footer>
-</div>
+
+  </article>
+  
+   <footer>
+   <div class="container">
+   <img src="img/logo-footer.png">
+   <div><h4>Desenvolvido por : Joel Freitas, Alexsander Oliveira, Michael Dhyani, Ana Carolina</h4></div>
+   
+   </div>
+   
+   </footer>
+
+
+ <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="bootstrap-3.3.7-dist/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>

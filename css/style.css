@@ -1,13 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+body {
+	background-color:#f7fcff;
+	
+	
+}
+
 header {
     min-height: 90px;
     background-color: #ffffff;
     border-bottom: 2px solid #2d4444;
     color: #2d4444;
     font-size: 20px;
-    margin-bottom: 40px;
+ 
 }
 
 
@@ -31,4 +38,89 @@ header {
 }
 
 }
+
+footer {
+	
+	background-color: #2d4444;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align:center;
+	color: #ffffff;
+	
+}
+
+footer img {
+	max-width: 190px;
+	
+}
+	
+	
+
+	
+	article {
+		
+		  padding-top: 40px;
+  padding-bottom: 40px;
+		
+	}
+	
+	
+.navbar-header {
+	
+	  margin-top: 15px;
+	
+}
+
+.centralizado {
+	
+	text-align:center
+	
+}
+
+.menu h2{
+	border-bottom: 1px solid #2d4444;
+	
+	
+}
+
+.caixabranca {
+	background-color:#ffffff;
+	border-radius: 5px;
+	border: 1px solid #dbdbdb;
+	padding: 10px;
+	
+}
+
+.caixapadrao {
+
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+ol, ul {
+
+  padding: 0;
+}
+
+.produto-grid {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.grid-items{
+	margin-top:10px;
+	
+	
+}
+.grid-items .col-md-4 {
+padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom:10px;
+  }
 
